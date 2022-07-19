@@ -9,20 +9,33 @@ body {
     font-family: 'Karla', sans-serif;
     background-color: hsl(204, 43%, 93%);
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main {
     box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header, .subscription, .whyus {
+    padding: 40px;
 }
 
 header {
     background-color: white;
     border-radius: 10px 10px 0 0;
+    margin: 0;
 }
 
 h1 {
     color: hsl(179, 62%, 43%);
+    margin-top: 0;
 }
 
 h2 {
@@ -32,15 +45,28 @@ h2 {
 .hero-description {
     color: hsl(218, 22%, 67%);
     font-size: 16px;
+    margin-bottom: 0;
+    width: 90%;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    margin: 0;
 }
 
 .subscription {
     background-color: hsl(179, 62%, 43%);
     border-radius: 0 0 0 10px;
+    width: 50%;
 }
 
 h3, .price, .access {
-    color: hsl(204, 43%, 93%)
+    color: hsl(204, 43%, 93%);
+}
+
+h3, .price {
+    margin: 5px auto;
 }
 
 .price {
@@ -70,6 +96,7 @@ button {
 .whyus {
     background-color: hsla(179, 62%, 43%, 0.7);
     border-radius: 0 0 10px 0;
+    width: 50%;
 }
 
 ul {
@@ -82,6 +109,10 @@ li {
 }
 
 .attribution {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 11px; text-align: center;
 }
 
