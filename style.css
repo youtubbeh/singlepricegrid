@@ -1,3 +1,82 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    margin: 0 auto;
+}
+
+main {
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+.hero-description {
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+}
+
+h3, .price, .access {
+    color: hsl(204, 43%, 93%)
+}
+
+.price {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+span {
+    color: hsla(204, 43%, 93%, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.whyus {
+    background-color: hsla(179, 62%, 43%, 0.7);
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    color: hsl(204, 43%, 93%)
+}
+
 .attribution {
     font-size: 11px; text-align: center;
 }
