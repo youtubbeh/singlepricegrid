@@ -13,10 +13,12 @@ body {
 
 main {
     box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 header {
     background-color: white;
+    border-radius: 10px 10px 0 0;
 }
 
 h1 {
@@ -34,6 +36,7 @@ h2 {
 
 .subscription {
     background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
 }
 
 h3, .price, .access {
@@ -66,6 +69,7 @@ button {
 
 .whyus {
     background-color: hsla(179, 62%, 43%, 0.7);
+    border-radius: 0 0 10px 0;
 }
 
 ul {
